@@ -1,0 +1,138 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.servicios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+}
+.servicios li:hover{
+    border-color:blue;
+}
+.servicios li:active{
+    border-color: coral;
+}
+.servicios li:hover h2{
+    font-size: 33px;
+}
+.servicios{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+.servicios h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descripcion{
+    font-size: 18px;
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color: #BBBBBB;
+    font-size: 16px;
+    margin: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input_padron{
+    display: block;
+    margin: 0 0 20px;
+    border-radius: 7px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+#botonEnviar{
+    background: orange;
+    width: 40%;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    padding: 15px 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+
+}
+#botonEnviar:hover{
+    background: darkorange;
+    transform: scale(1.20);
+}
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
